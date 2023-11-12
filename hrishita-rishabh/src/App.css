@@ -1,0 +1,110 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #60dafb;
+}
+#HRlink {
+  color: black;
+  font-family: "Cedarville Cursive", cursive;
+  font-size: xx-large;
+  display: flex;
+  margin-left: 2vw;
+  position: relative;
+  top: 4.5vh;
+}
+body {
+  background-color: #ffcbcb;
+}
+#years {
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Pacifico", cursive;
+  font-size: 70px;
+}
+@media screen and (max-width: 600px) {
+  .landing {
+    height: 100vh;
+    background-image: url(/public/Background.jpeg);
+    background-size: cover;
+    background-color: #f9ecec;
+    text-align: center;
+  }
+
+  #years {
+    font-family: "Cedarville Cursive", cursive;
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    position: relative;
+    top: 4vh;
+  }
+  #carouselExampleAutoplaying {
+    height: 40vh;
+    width: 100vw;
+  }
+  #lifetime {
+    font-family: "Cedarville Cursive", cursive;
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 5px;
+  }
+  #click-here {
+    color: #ffcbcb;
+    text-decoration: none;
+    font-family: "Cedarville Cursive", cursive;
+    font-size: xxx-large;
+    position: relative;
+    top: 48vh;
+  }
+  #message {
+    font-family: "Cedarville Cursive", cursive;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    margin: 5px;
+    position: relative;
+    top: 2.5vh;
+    text-align: center;
+  }
+  #instructions {
+    font-family: "Cedarville Cursive", cursive;
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    margin: 5px;
+    position: relative;
+    top: 16.5vh;
+  }
+  #link {
+    font-family: "Cedarville Cursive", cursive;
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+    margin: 5px;
+    position: relative;
+    top: 28.5vh;
+    color: white;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 601px) {
+  .App {
+    display: none;
+  }
+}
